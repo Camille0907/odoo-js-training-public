@@ -25,6 +25,13 @@ export class TodoList extends Component {
             todo.done = !todo.done;
         }
     }
+
+    removeTodo(todoId) {
+        const index = this.todoList.findIndex((todo) => todo.id === todoId);
+        if (index > -1) { // only splice array when item is found
+          this.todoList.splice(index, 1); // 2nd parameter means remove one item only
+        }
+    }
 }
 
 TodoList.components = { Todo };

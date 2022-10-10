@@ -6,6 +6,7 @@
             <label class="form-check-label" t-att-for="props.id" t-att-class="props.done ? 'text-decoration-line-through text-muted' : '' ">
                 <t t-esc="props.id"/>.
                 <t t-esc="props.description"/>
+                <span class="fa fa-remove" t-on-click="onClickRemove"/>
             </label>
         </div>
     </t>
