@@ -10,8 +10,11 @@ class AwesomeDashboard extends Component {
     static components = { Counter, Todo };
 
     setup(){
-        this.todo1 = { id: 3, description: "Buy milk", done: false };
-        this.todo2 = { id: 3, description: "Buy eggs", done: true };
+        this.todos = [
+            { id: 3, description: "Buy milk", done: false },
+            { id: 4, description: "Buy eggs", done: true },
+            { id: 5, description: "Buy avocados", done: false },
+        ]
     }
 }
 
