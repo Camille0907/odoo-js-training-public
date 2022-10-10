@@ -5,6 +5,8 @@
     <div class="p-3">
         hello world
         <Counter/>
+        <Todo todo="todo1"/>
+        <Todo todo="todo2"/>
     </div>
 </t>
 
