@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<templates>
+
+    <t t-name="awesome_tshirt.LateOrderBoolean" t-inherit="web.BooleanField" t-inherit-mode="primary" owl="1">
+        <xpath expr='//CheckBox' position="after">
+            <span style="color:red"> Late !</span>
+        </xpath>
+    </t>
+
+</templates>
