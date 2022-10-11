@@ -2,6 +2,6 @@
 <templates xml:space="preserve">
     <t t-name="awesome_tshirt.ImagePreviewField" owl="1">
         <CharField t-props="props"/>
-        <img t-att-src="props.value"/>
+        <img t-att-src="props.value" alt="MISSING TSHIRT DESIGN" style="color:red"/>
     </t>
 </templates>
